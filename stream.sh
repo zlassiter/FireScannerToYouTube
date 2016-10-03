@@ -4,6 +4,10 @@
 
 # This is the file that streams to YouTube
 
+# I have this set up to run in a crontab on start and then also restart
+# the Rasberry Pi every three hours incase of crashing or audio degredation of
+# the stream. 
+
 VBR="300k"      # Video Bitrate
 FPS="2"         # Frames Per Second
 QUAL="veryfast" # FFMPEG Quality (Faster equals less quality)
